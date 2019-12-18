@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/*메인슬라이더*/
+#container{}
+.main{position:relative;}
+.slider{}
+.slider .slick-dots{position:absolute; top:40px; left:50%; margin-left:-600px;}
+.slider .slick-dots li{float:left;  margin-right:10px;}
+.slider .slick-dots button{width:70px; height:7px; border-radius:50px; border:1px solid #fff; display:inline-block; font-size:0; display:block; cursor: pointer; background:none;}
+.slider .slick-dots .slick-active{background:#fff; border-radius:50px;}
+.mainSlider{background:url(../images/main_slider.png) no-repeat center center; height:700px; box-sizing:cover;}
+.mainSlider2{background:url(../images/main_slider2.png) no-repeat center center; height:700px; box-sizing:cover;}
+
+
+/* .mainBtn{position:absolute; left:0; top:30px;}
+.mainBtn span{text-indent:-9999px;}
+.mainBtn span a{width:50px; height:2px; margin-right:5px; border-radius:20px; border:1px solid #fff; display:inline-block;}
+.mainBtnOn{background:#fff;} */
+
+.mainCon{position:relative;}
+.mainBottomBtn{position:absolute; right:0; bottom:0;}
+.mainBottomBtn li{width:300px; height:80px; line-height:80px; float:left; text-align:center;}  /*정렬 더 보자*/
+.mainBottomBtn li img{padding-right:30px; vertical-align:middle;} 
+.mainBottomBtn span{}
+.mainBottomBtn a{font-size:30px; font-weight:500; color:#fff; display:block; vertical-align:middle;}
+.mainBottomBtn a:hover{font-weight:600;}
+
+.mainBottomBtn .bottomBgRed{background:#d00039; border-radius:50px 0 0 0;}
+.mainBottomBtn .bottomBgGreen{background:#00704a; border-radius:0 50px 0 0;}
+
+
+/*con1*/
+.con1{background:url(../images/con1_background.png) no-repeat 0 100px;}
+.con1_1{background:url(../images/con1_background2.png) no-repeat right bottom;  padding-bottom:150px;}
+.con1 h2{font-size:40px; font-weight:100; text-align:center; padding-top:150px; padding-bottom:70px;} /*제목 여백*/
+.con1 h2 span{font-size:60px; font-weight:900;}
+.con1_box{width:786px; height:500px; margin:0 auto; position:relative;}
+.con1_box li{float:left; margin-right:60px;}
+.con1_box li:nth-child(3n){margin-right:0;}
+.con1_box li .on{display:none;}
+.con1_box li:hover .off{display:none;}
+.con1_box li:hover .on{display:block;}
+.con1_box li a{}
+.con1_box li img{}
+
+.con1Btn{}
+.con1Btn div{position:absolute; top:50%; margin-top:-47px;}
+.con1Btn a{}
+.con1Btn img{}
+.con1Btn .btnL{left:-150px;}
+.con1Btn .btnR{right:-150px;}
+
+/*con2*/
+.con2{}
+.con2 h2{font-size:40px; font-weight:100; text-align:center; padding-bottom:70px;}
+.con2 h2 span{font-size:60px; font-weight:900;}
+.con2 .makingU{background:url(../images/con2_background2.png); padding:45px 0; text-align:center;}
+.con2 .ut{position:relative;}
+.con2 .post{position:absolute; left:50%; margin-left:-600px; top:0; box-shadow:-1px -1px 3px #ccc; z-index:1;}
+
+
+/*con3*/
+.con3{padding-bottom:200px; position:relative;}
+.con3 h2{font-size:40px; font-weight:100; text-align:center; padding-top:150px; padding-bottom:70px;}
+.con3 h2 span{font-size:60px; font-weight:900;}
+.con3Img{display:inline-block; vertical-align:middle; position:relative;}
+.con3Img .kakao{position:absolute; left:159px;}
+.con3Img .yogiyo{position:absolute; left:308px;}
+.con3Img a{transition:transform 0.3s;}                                       /******************/
+
+.con3Img a:hover{transform:translateY(-20px);}
+
+/*.fSns li:hover{transform:translateY(-5px);}*/
+
+.con3 a{display:inline-block;}
+.con3Text{font-size:30px; color:#333; display:inline-block; vertical-align:middle; margin-left:500px;}
+.con3Text .bar:before{content:""; display:block; width:40px; height:4px; background:#333; border-radius:30px; margin-left:2px; margin-bottom:10px;}
+.con3Text .con3T{line-height:30px;}
+.con3Text .con3P{background:url(../images/con3_textPoint.png) no-repeat 0 40px; font-size:45px; font-weight:600; margin-top:60px;}
+
+/*가맹신청/문의*/
+.fixed{position:absolute; top:50%; margin-top:-300px; right:0;}
+.fixed a{display:block;}
+.fixed img{display:block;}
+.fixed .on{display:none;}
+.fixed div:hover .off{display:none;}
+.fixed div:hover .on{display:block;}
+/*.mainBottomBtn a:hover{font-weight:600;}*/
+
+
+

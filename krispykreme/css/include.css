@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/*header*/
+#header{}
+
+.headerTop{position:relative; height:28px;}
+
+.utill{position:absolute; right:50px;}
+.utill li{float:left; width:70px; height:28px; line-height:28px; text-align:center;}
+.utill .bgRed{background:#d00037; border-radius:0 0 10px 10px;}
+.utill .bgGreen{background:#00704a; border-radius:0 0 10px 10px;}
+.utill li a{color:#fff; font-size:12px; font-weight:200; display:block;}
+.utill li a:hover{font-weight:400;}                                                                      /*hover*/
+
+
+h1{text-align:center; padding:40px 0; font-size:0;}
+h1 a{display:inline-block;}
+h1 a img{display:block;}
+
+/*.headerBottom{border-top:1px solid #151932;}*/
+
+.gnb{position:relative;}
+.gnb>li{float:left; width:20%; height:60px; line-height:60px; text-align:center;}
+.gnb>li a{font-size:18px; font-weight:900;}
+
+.lnb{position:absolute; z-index:1; max-height:0; overflow:hidden; transition:max-height 1s;}
+.gnb>li:hover .lnb{max-height:960px;} 
+.lnb li{width:240px; height:50px; line-height:50px; background:rgba(255,255,255,0.7);}
+.lnb li a{font-size:15px; font-weight:500; display:block;}
+.lnb li:hover{border-left:5px solid #D00037; border-right:5px solid #D00037; box-sizing:border-box;}
+
+#footer{position:relative;}
+
+.fWrap{background:#262626; color:#fff; font-size:12px; font-weight:100; text-align:center; padding:40px 0;}
+
+.infoT{font-weight:normal; padding-bottom:20px;}
+.infoT a{color:#fff;}
+.infoT span:after{content:""; display:inline-block; width:1px; height:8px; margin:0 10px; background:#999;}
+.infoT a:hover{text-decoration:underline;}
+
+.infoM{}
+.infoM span:before{content:""; display:inline-block; width:1px; height:8px; margin:0 5px; background:#999;}
+
+.infoB{}
+
+.sns{position:absolute; left:50%; margin-left:-115px; top:-47px;}
+.sns li{float:left; width:50px; height:50px; margin-right:10px; background-size:cover;}
+.sns li a{display:block; height:100%;}
+
+.in{background:url(../images/footer_i.png) no-repeat;}
+.in a{}
+.fa{background:url(../images/footer_f.png) no-repeat;}
+.fa a{}
+.tw{background:url(../images/footer_t.png) no-repeat;}
+.tw a{}
+.bl{background:url(../images/footer_b.png) no-repeat;}
+.bl a{}
