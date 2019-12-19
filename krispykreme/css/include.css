@@ -23,7 +23,7 @@ h1 a img{display:block;}
 .gnb>li{float:left; width:20%; height:60px; line-height:60px; text-align:center;}
 .gnb>li a{font-size:18px; font-weight:900;}
 
-.lnb{position:absolute; z-index:1; max-height:0; overflow:hidden; transition:max-height 1s;}
+.lnb{position:absolute; z-index:1; max-height:0; overflow:hidden; transition:max-height 1s; top:60px;}
 .gnb>li:hover .lnb{max-height:960px;} 
 .lnb li{width:240px; height:50px; line-height:50px; background:rgba(255,255,255,0.7);}
 .lnb li a{font-size:15px; font-weight:500; display:block;}

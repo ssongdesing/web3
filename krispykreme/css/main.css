@@ -52,7 +52,7 @@
 
 /*con2*/
 .con2{}
-.con2 h2{font-size:40px; font-weight:100; text-align:center; padding-bottom:70px;}
+.con2 h2{font-size:40px; font-weight:100; text-align:center; padding:70px 0;}
 .con2 h2 span{font-size:60px; font-weight:900;}
 .con2 .makingU{background:url(../images/con2_background2.png); padding:45px 0; text-align:center;}
 .con2 .ut{position:relative;}
@@ -64,8 +64,8 @@
 .con3 h2{font-size:40px; font-weight:100; text-align:center; padding-top:150px; padding-bottom:70px;}
 .con3 h2 span{font-size:60px; font-weight:900;}
 .con3Img{display:inline-block; vertical-align:middle; position:relative;}
-.con3Img .kakao{position:absolute; left:159px;}
-.con3Img .yogiyo{position:absolute; left:308px;}
+.con3Img .kakao{position:absolute; left:159px; top:0;}
+.con3Img .yogiyo{position:absolute; left:308px; top:0;}
 .con3Img a{transition:transform 0.3s;}                                       /******************/
 
 .con3Img a:hover{transform:translateY(-20px);}
